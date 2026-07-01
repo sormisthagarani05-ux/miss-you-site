@@ -2,9 +2,61 @@
 <html>
 <head>
   <title>Tap Tracker</title>
+  <h1>Tap Tracker 💗</h1>
+
+<button onclick="sendTap()" class="btn">Tap 💗</button>
+
+<br><br>
+
+<button onclick="window.open('https://docs.google.com/spreadsheets/d/1TSr0Srd-UBAzdKgT4isIaf5fiTo0EZmx7OY4KLff0q8/edit?usp=sharing')" class="btn secondary">
+View History 💗
+</button>
+
+<p id="status"></p>
+
+<script>
+function sendTap() {
+  fetch("https://docs.google.com/forms/d/e/1FAIpQLScP3w-8LIrFkmkGvd5kkuFhrlcyN...", {
+    method: "POST",
+    mode: "no-cors",
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    body: "entry.766837641=1"
+  });
+
+  document.getElementById("status").innerText = "Sent 💗✨";
+}
+</script>
 </head>
 
 <body style="text-align:center; font-family:sans-serif; margin-top:100px;">
+  <h1>Tap Tracker 💗</h1>
+
+<button onclick="sendTap()" class="btn">Tap 💗</button>
+
+<br><br>
+
+<button onclick="window.open('PASTE_YOUR_GOOGLE_SHEET_LINK')" class="btn secondary">
+View History 💗
+</button>
+
+<p id="status"></p>
+
+<script>
+function sendTap() {
+  fetch("https://docs.google.com/forms/d/e/1FAIpQLScP3w-8LIrFkmkGvd5kkuFhrlcyN...", {
+    method: "POST",
+    mode: "no-cors",
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    body: "entry.766837641=1"
+  });
+
+  document.getElementById("status").innerText = "Sent 💗✨";
+}
+</script>
 
   <h1>Tap Tracker 💗</h1>
 
